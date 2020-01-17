@@ -1,6 +1,6 @@
 <template>
-    <div class="home">
-        <header></header>
+    <div class="home page-padding">
+        <home-header />
         <!-- <router-view></router-view> -->
         <footer></footer>
     </div>
@@ -8,12 +8,12 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import Header from '@/components/home/Header.vue';
+import HomeHeader from '@/components/home/Header.vue';
 import Footer from '@/components/home/Footer.vue';
 
 @Component({
     components: {
-        Header,
+        HomeHeader,
         Footer
     }
 })
