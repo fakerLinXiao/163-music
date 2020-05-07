@@ -1,6 +1,6 @@
 <template>
     <div class="footer-wrapper">
-
+        why nothing
     </div>
 </template>
 

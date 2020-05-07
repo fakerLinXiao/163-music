@@ -14,7 +14,7 @@
 <script lang="ts">
 import { Vue } from "vue-property-decorator";
 
-export default class HomeHeader extends Vue {
+export default class Header extends Vue {
     
 }
 </script>
@@ -26,10 +26,6 @@ export default class HomeHeader extends Vue {
         .top-tab {
             flex: 1 0 auto;
             display: flex;
-
-            // & > div {
-            //     flex: 1 0 auto;
-            // }
         }
     }
 </style>

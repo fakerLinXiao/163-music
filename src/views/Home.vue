@@ -1,19 +1,18 @@
 <template>
     <div class="home page-padding">
-        <home-header />
-        <!-- <router-view></router-view> -->
+        <header></header>
         <footer></footer>
     </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-import HomeHeader from '@/components/home/Header.vue';
+import Header from '@/components/home/Header.vue';
 import Footer from '@/components/home/Footer.vue';
 
 @Component({
     components: {
-        HomeHeader,
+        Header,
         Footer
     }
 })
